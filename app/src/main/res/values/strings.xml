@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Crazy Talk</string>
+    <string name="shr_hint_username">username</string>
+    <string name="shr_hint_password">password</string>
+    <string name="label">username</string>
+    <string name="label1">password</string>
+    <string name="sign_up">sign up</string>
+    <string name="email">email</string>
+    <string name="login">Login</string>
+</resources>
