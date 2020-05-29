@@ -6,4 +6,28 @@
     android:layout_height="match_parent"
     tools:context=".SocialMediaActivity">
 
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/my_appbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <include
+            android:id="@+id/myToolbar"
+            layout="@layout/my_toolbar" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/my_appbar" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
