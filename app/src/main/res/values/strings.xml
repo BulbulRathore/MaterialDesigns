@@ -13,4 +13,11 @@
     <string name="profile">Profile</string>
     <string name="user">User</string>
     <string name="Share">Share</string>
+    <string name="bio">Bio...</string>
+    <string name="profile_name">Profile name</string>
+    <string name="fav_sport">favorite sport...</string>
+    <string name="hobbies">hobbies...</string>
+    <string name="proffesion">your proffesion...</string>
+    <string name="update_info">Update Info</string>
+    <string name="profession">Profession...</string>
 </resources>
